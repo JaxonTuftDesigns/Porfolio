@@ -1,0 +1,163 @@
+.links {
+  margin-right: 20px; 
+  display: inline-flex;
+  color: rgb(255, 255, 255);
+}
+
+#nav-links {
+  top: 0;
+  display: inline-flex;
+}
+
+#name {
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 255, 255); 
+  font-weight: lighter;
+}
+
+footer {
+  font-size: 30px;
+  color: white;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(150, 150, 150);
+  font-weight: normal;
+  font-family: impact;
+  text-decoration: none;
+}
+
+.nav {
+  top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  z-index: 4;
+}
+
+#filler {
+  font-size: 100px;
+  z-index: 2;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#album {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.album-image {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex:auto;
+}
+
+/* Adjustments to ensure proper alignment */
+#album {
+  padding: 20px;
+}
+
+#album img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#album img:hover {
+  opacity: 0.7;
+}
+
+* {
+  font-family: impact;
+}
+
+body {
+  margin: 0;
+  background-color: gray;
+  z-index: -1;
+}
+
+#title {
+  top: 250px;
+  height: 250px;
+  width: 700px;
+  margin: 70px auto;
+  padding: 20px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  background-color: hsla(0, 0%, 17%, 0.546);
+  z-index: 2;
+  position: relative;
+}
+
+#logo {
+  margin: 5px;
+}
+
+#page {
+   margin: auto;
+   background-color: rgb(20, 20, 20);
+   position: relative;
+   top: 310px;
+   z-index: 1;
+   width: 85%;
+   height: 2000px;
+   padding: 20px;
+   display: block;
+   
+  }
+#upsidedown {
+  display: flex;
+  position: fixed;
+  justify-items: center;
+  top: 745px;
+  max-height: 901.5px;
+  height: auto;
+  max-width: 1920px;
+  min-width: 1280px;
+  width: 100%;
+  z-index: 1;
+}
+
+
+#galaxy {
+  display: flex;
+  position: fixed;
+  justify-items: center;
+  top: 100px;
+  max-height: 901.5px;
+  height: auto;
+  max-width: 1920px;
+  min-width: 1280px;
+  width: 100%;
+  z-index: 1;
+}
+#PageHeader{
+  color: aqua;
+  text-align: center;
+}
